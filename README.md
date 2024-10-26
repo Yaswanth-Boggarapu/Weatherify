@@ -68,6 +68,4 @@ Make sure you have the following installed:
     **Set temperature units and alert thresholds.**
     **Choose the alert type (popup or email) for notifications.**
 
- 7.
-
 
