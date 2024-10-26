@@ -1,112 +1,70 @@
-# Zeotap_Weather
-# Weather Monitoring System  This Weather Monitoring System is a full-stack application built with React for the frontend and Node.js for the backend. It fetches real-time weather data, stores historical data in MongoDB, and provides customizable alert thresholds. The project is Dockerized for easy deployment and scalability. 
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Weather Monitoring System
+## Available Scripts
 
-## Overview
+In the project directory, you can run:
 
-The Weather Monitoring System is a full-stack application designed to fetch, display, and analyze real-time weather data. Built with React for the frontend and Node.js with Express for the backend, this application leverages the OpenWeatherMap API to provide comprehensive weather insights. 
+### `npm start`
 
-## Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Fetch real-time weather data for multiple locations.
-- Display current temperature, feels like, and weather conditions.
-- Store historical weather data in MongoDB for further analysis.
-- Customizable alert thresholds for temperature and weather conditions.
-- Alert notifications via popup and email.
-- Dockerized for easy deployment and scalability.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Technologies Used
+### `npm test`
 
-- **Frontend:** React, Axios, Bootstrap
-- **Backend:** Node.js, Express
-- **Database:** MongoDB
-- **API:** OpenWeatherMap API
-- **Docker:** Containerization for easy deployment
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Installation
+### `npm run build`
 
-### Prerequisites
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Make sure you have the following installed:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- [Node.js](https://nodejs.org/) (version 14 or higher)
-- [MongoDB](https://www.mongodb.com/)
-- [Docker](https://www.docker.com/)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Steps to Run the Application
+### `npm run eject`
 
-1. **Clone the repository:**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-   ```bash
-   git clone https://github.com/yourusername/weather-monitoring-system.git
-   cd weather-monitoring-system
-2. Install the dependencies:
-   bash
-    Copy code
-    cd client
-    npm install
-    cd ../server
-    npm install
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Set up environment variables:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Create a .env file in the server directory with the following variables:
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-makefile
-Copy code
-MONGODB_URI=your_mongodb_connection_string
-OPENWEATHER_API_KEY=your_openweather_api_key
-Run the application locally:
+## Learn More
 
-Start the MongoDB server (if not running):
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-bash
-Copy code
-mongod
-Start the server:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-bash
-Copy code
-cd server
-node index.js
-Start the client:
+### Code Splitting
 
-bash
-Copy code
-cd client
-npm start
-Dockerize the application:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Navigate to the root directory of the project and run:
+### Analyzing the Bundle Size
 
-bash
-Copy code
-docker-compose up --build
-Usage
-Enter a location to fetch the current weather data.
-Set temperature units and alert thresholds.
-Choose the alert type (popup or email) for notifications.
-Contributing
-Contributions are welcome! Please feel free to open an issue or submit a pull request.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+### Making a Progressive Web App
 
-Acknowledgments
-OpenWeatherMap API for providing weather data.
-MongoDB for the database.
-markdown
-Copy code
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Notes:
-- Replace `yourusername` in the clone URL with your actual GitHub username.
-- Make sure to update the `.env` section with actual values for MongoDB and OpenWeather API keys.
-- Adjust any sections according to your specific project needs or structure.
+### Advanced Configuration
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
+### Deployment
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+### `npm run build` fails to minify
 
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
